@@ -1,0 +1,102 @@
+header {
+    text-align: center;
+    padding: 1em;
+    color: white;
+    background-color: #ced9ea;
+    clear: left;
+}
+
+.row {
+    padding: 55px;
+}
+h5 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+    border: 2px;
+    text-align: left;
+}
+
+#parks h5 {
+    color: #FFFFFF;
+    background-color: #428bca;
+}
+
+#schools h5 {    
+    background-color: #cee5c7;
+}
+
+#restaurants h5 {
+    background-color: #cedbe5;
+}
+
+#apartments h5 {
+    background-color: #fcddb5;
+}
+#transit h5 {
+    background-color: #f7c5cb;
+    
+}
+
+#parks {
+    border: 1px solid #428bca;
+    width: 350px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#schools {
+    border: 1px solid #cee5c7;
+    width: 350px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#restaurants {
+    border: 1px solid #cedbe5;
+    width: 350px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#apartments {
+    border: 1px solid #edcf6d;
+    width: 350px;
+    padding: 0px;
+    margin: 10px;
+}
+
+#transit {
+    border: 1px solid #f7c5cb;
+    width: 350px;
+    padding: 0px;
+    margin: 10px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    width: auto;
+    list-style-position: inside;
+    text-align: left;
+    background-color: #f2eded;
+    border: 5px lightgray;
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+
+.fields {
+    background-color: #ffffff;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+            
+
+.title:hover {
+    text-decoration: underline;
+}

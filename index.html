@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Web Development sample</title>
+	
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  
+  <script>
+  $( function() {
+    $( "#parks" ).draggable();
+	$( "#schools" ).draggable();
+	$( "#restaurants" ).draggable()
+	$( "#apartments" ).draggable()
+	$( "#transit" ).draggable()
+  } );
+  </script>
+  
+</head>
+
+<body>
+    <header>
+      <h3>List of Various Washington DC Facilities</h3>
+    </header>
+    <div class="container-fluid text-center">
+	  <button type="button" class="btn btn-danger btn-md" onClick="resetEverything()">RESET</button>
+        <div class="container-fluid">
+			
+            <div class="row">
+				<div class="col-md-4" id="parks">
+					<ul>
+						<li class="title"></li>
+						<li class="fields"></li>
+					</ul>
+				</div>
+				<div class="col-md-4" id="schools"><ul>
+						<li class="title"></li>
+						<li class="fields"></li>
+					</ul>
+				</div>
+				<div class="col-md-4" id="restaurants">
+					<ul>
+						<li class="title"></li>
+						<li class="fields"></li>
+					</ul>
+				</div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" id="apartments">
+					<ul>
+						<li class="title"></li>
+						<li class="fields"></li>
+					</ul>
+				</div>
+				<div class="col-md-4" id="transit">
+					<ul>
+						<li class="title"></li>
+						<li class="fields"></li>
+					</ul>
+				</div>
+            </div>
+        </div>
+    </div>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script   src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="sql.js"></script>
+</body>
+</html>
